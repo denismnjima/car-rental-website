@@ -1,0 +1,121 @@
+main{
+    background: url(../../assets/images/vehicle_background.png);
+    background-size:cover;
+    width: 95%;
+    margin: 5px auto;
+    border-radius: 20px;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
+.hero-content{
+    text-align: center;
+    padding-top: 40px;
+    background-color: rgba(0, 0, 0, 0.171);
+    height: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.hero-content h1{
+    font-size: 5vmin;
+}
+.hero-buttons{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px 10px;
+}
+.hero-buttons button{
+    min-width: 150px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+}
+.hero-buttons svg{
+    width: 30px;
+}
+.main-btn{
+    background-color: #82378C;
+    color: white;
+
+}
+.book-form{
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    align-items: center;
+    text-align: left;
+    gap: 10px;
+    margin: 0 auto;
+}
+.book-form div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.book-form input{
+    height: 40px;
+    outline: none;
+    border: none;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+.book-form button{
+    min-width: 150px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    background-color: #82378C;
+    color: white;
+
+}
+
+@media screen  and (max-width:768px){
+    .book-form{
+        flex-direction: column;
+        align-self: flex-end;
+        width: 100% !important;
+        background-color: transparent;
+        backdrop-filter: blur(100px);
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        color: white;
+        display: none;
+    }
+    .hero-content h1{
+        font-size: 35px;
+    }
+
+    .book-form div{
+        width: 100%;
+    }
+    .book-form input{
+        width: 100%;
+        height: 45px;
+    }
+    .book-form button{
+        width: 100%;
+    }
+    main{
+        justify-content: flex-end;
+        padding: 10px;
+    }
+    
+    /* rent a car modal */
+    .mobile-activate-rental-modal{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .mobile-activate-rental-modal svg{
+        width: 50px;
+    }
+}

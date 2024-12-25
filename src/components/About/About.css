@@ -1,0 +1,85 @@
+.segment svg{
+    width: 50px;
+}
+.segment{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    padding: 20px;
+    max-width: 1500px;
+    margin: 30px auto;
+}
+.segment .design img{
+    max-width: 100%;
+}
+.segment .design{
+    width: 45%;
+}
+
+/* cont heading */
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.cont-heading{
+    display: flex;
+    align-items: center;
+    grid-area: 5px;
+    margin: 10px;
+}
+.cont-heading .cont-heading--icon{
+    background-color: #82378C;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-weight: bolder;
+    font-size: 28px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont-heading h3{
+    color: #82378C;
+}
+.content h2{
+    font-size: 35px;
+}
+.icon-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-top: 20px;
+}
+.icon-cards .card{
+    display: flex;
+    gap: 10px;
+}
+.icon-cards .card .card-icon{
+    background-color: #82378c63;
+}
+.buttons button{
+    height: 45px;
+    min-width: 150px;
+    background-color: #82378C;
+    border: none;
+    border-radius: 20px;
+    color:white;
+    display: block;
+    margin-top: 20px;
+}
+.buttons button:hover{
+    scale: 1.05;
+}
+
+@media screen and (max-width:768px) {
+    .segment{
+        flex-direction: column-reverse;
+    }
+    .design{
+        width: 100% !important;
+    }
+    
+}
