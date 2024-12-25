@@ -1,0 +1,33 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 7px;
+    gap: 20px;
+    align-items: center;
+}
+.logo img{
+    width: 130px;
+}
+.header-nav ul{
+    display: flex;
+    gap: 20px;
+}
+.haeder-menu-item{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.haeder-menu-item svg{
+    width: 15px;
+}
+.header-button{
+    background-color: #82378C;
+    height: 40px;
+    padding: 5px;
+    min-width: 150px ;
+    border: none;
+    border-radius: 120px;
+    color: white;
+}
