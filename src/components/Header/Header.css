@@ -31,3 +31,50 @@ header{
     border-radius: 120px;
     color: white;
 }
+.header-button:hover{
+    scale: 1.05;
+}
+
+@media screen  and (max-width:768px){
+    .ham-container{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 40px;
+    }
+    .ham-container .ham-line{
+        width: 30px;
+        height: 3px;
+        background-color: #1f1d1d;
+    }
+    .ham-container.opened :nth-child(1){
+        rotate: 120deg;
+    }
+    .ham-container.opened :nth-child(2){
+        rotate: -120deg;
+        translate: -10deg;
+    }
+    .ham-container.opened :nth-child(3){
+        display: none;
+    }
+
+    /* hide desktop menu */
+    header{
+        justify-content: space-between;
+    }
+    .header-nav{
+        display: none;
+    }
+    .header-main-buttons{
+        display: none;
+    }
+    
+    /* mobile menu */
+    .mobile-header-container{
+        position: absolute;
+        top: 70px;
+        min-height: 80vh;
+        width: 97%;
+    }
+    
+}
