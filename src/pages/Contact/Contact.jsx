@@ -1,7 +1,9 @@
 // ContactUs.jsx
 import React, { useState } from "react";
 import "./Contact.css";
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -37,7 +39,9 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact-container">
+    <>
+    <Header/>
+      <div className="contact-container">
       <div className="banner">
         <h1>Contact Us</h1>
         <p>We'd love to hear from you. Reach out with any questions or comments!</p>
@@ -93,26 +97,20 @@ const Contact = () => {
         <div className="contact-info">
           <h3>Follow Us</h3>
           <div className="social-icons">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/share/19peC7nk5e/?mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer">
               <FaFacebook />
             </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-              <FaTwitter />
-            </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-              <FaInstagram />
-            </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-              <FaLinkedin />
+            <a href="https://wa.me/+254721731678" target="_blank" rel="noopener noreferrer">
+              <FaWhatsapp/>
             </a>
           </div>
         </div>
       </div>
 
-      <div className="footer">
-        <p>&copy; 2024 Your Company. All Rights Reserved.</p>
-      </div>
     </div>
+   <Footer/>
+    </>
+
   );
 };
 

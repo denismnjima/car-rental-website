@@ -22,8 +22,7 @@
   }
   
   .banner {
-    background: var(--primary-purple);
-    color: var(--text-color);
+    color: black;
     padding: 40px;
     margin-bottom: 30px;
   }
@@ -144,4 +143,12 @@
     padding: 20px;
     margin-top: 30px;
   }
-  
+  @media screen and (max-width:768px) {
+    .contact-form-section {
+      flex-direction: column;
+    }
+    .form-wrapper{
+      width: 90%;
+    }
+    
+  }
