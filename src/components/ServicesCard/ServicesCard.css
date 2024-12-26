@@ -1,0 +1,49 @@
+@keyframes rise {
+    from{
+        margin-bottom: 100px;
+    }
+    to{
+        margin-bottom: 20px;
+
+    }
+    
+}
+.service-card svg{
+    max-width: 80px;
+}
+.service-card{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(68, 68, 68, 0.411);
+    border: .5px solid rgba(128, 128, 128, 0.301);
+    border-radius: 10px;
+    max-width: 300px;
+    gap: 25px;
+    position: relative;
+    min-height: 250px;
+    padding: 15px;
+}
+.service-card:hover{
+    background-color: #82378C;
+}
+.service-card  svg{
+    background-color: white;
+    rotate: 10deg;
+    border-radius: 50%;
+    width: 30px;
+}
+.service-card:hover  svg{
+    scale: 1.1;
+}
+.service-card .content svg{
+    width: 60px;
+    background-color: #82378c2c;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.service-card .content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

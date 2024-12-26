@@ -1,0 +1,12 @@
+.services{
+    max-width: 1500px;
+    margin: 15px auto;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+h2,p{
+    text-align: center;
+}
