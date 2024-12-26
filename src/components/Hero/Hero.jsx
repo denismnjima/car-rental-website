@@ -14,15 +14,15 @@ function Hero() {
   return (
     <main>
       <div className="hero-content">
-        <h1>save more on your rental car!</h1>
-        <p>Mistway is aeasy and covinient</p>
+        <h1>Top-notch transportation and supply services</h1>
+        <p>Designed to meet the unique needs of every client wth efficiency and realibility.</p>
 
         <div className="hero-buttons">
           <Link to="https://wa.me/+254721731678">
             <button className="main-btn">WhatsApp</button>
           </Link>
           <Link to="/contact">
-            <button className='sec-button'>Contacr us</button>
+            <button className='sec-button'>Contact us</button>
           </Link>
           <Link>
             <ArrowRightUp/>

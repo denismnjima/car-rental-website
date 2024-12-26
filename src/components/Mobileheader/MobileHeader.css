@@ -4,3 +4,6 @@ ul li a{
     display: block;
     margin: 7px 0;
 }
+nav{
+    background-color: white;
+}

@@ -8,10 +8,10 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-left">
-          <h2>Get In Touch</h2>
-          <p>Feel free to reach out to us at any time.</p>
-          <p>Email: contact@yourcompany.com</p>
-          <p>Phone: +1 123 456 7890</p>
+          <h2>Mistay Limited</h2>
+          <p>Your trusted patner for transportaation and supply services in Kenya.</p>
+          <p>Email: amey@mitsway.afica</p>
+          <p>Phone: +254721731678</p>
         </div>
 
         <div className="footer-center">
@@ -28,8 +28,8 @@ const Footer = () => {
 
         <div className="footer-right">
           <h2>Company Info</h2>
-          <p>Nairobi</p>
-          <p>Kenya</p>
+          <p>St Ellis House, Room 409</p>
+          <p>Wabera street, Nairobi Kenya</p>
         </div>
       </div>
 
