@@ -21,8 +21,8 @@ function Hero() {
           <Link to="https://wa.me/+254721731678">
             <button className="main-btn">WhatsApp</button>
           </Link>
-          <Link>
-            <button className='sec-button'>Learn more</button>
+          <Link to="/contact">
+            <button className='sec-button'>Contacr us</button>
           </Link>
           <Link>
             <ArrowRightUp/>

@@ -42,7 +42,7 @@ function About() {
             </div>
 
             <div className="buttons">
-                <Link>
+                <Link to="/contact"> 
                     <button className="sectional-button">Contact us</button>
                 </Link>
             </div>
