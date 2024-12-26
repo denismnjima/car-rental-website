@@ -1,0 +1,58 @@
+/* Footer.css */
+.footer {
+    background-color: #5c2d91; /* Dark Purple */
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .footer-left, .footer-center, .footer-right {
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  .footer-left h2, .footer-center h2, .footer-right h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #fff;
+  }
+  
+  .footer-left p, .footer-right p {
+    margin: 5px 0;
+    line-height: 1.6;
+  }
+  
+  .footer-center .social-icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .footer-center .social-icons a {
+    color: white;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-center .social-icons a:hover {
+    color: #b388eb; /* Lighter Purple on hover */
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #b388eb; /* Light Purple Line */
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+    font-size: 0.9rem;
+  }
+  

@@ -1,4 +1,5 @@
 import About from "../../components/About/About"
+import Footer from "../../components/Footer/Footer"
 import Header from "../../components/Header/Header"
 import Hero from "../../components/Hero/Hero"
 import ServicesCard from "../../components/ServicesCard/ServicesCard"
@@ -23,6 +24,7 @@ function Home() {
 
       <p>Discover our range of cars rental services to meet all your travel needs.</p>
      </div>
+     <Footer/>
     </>
   )
 }

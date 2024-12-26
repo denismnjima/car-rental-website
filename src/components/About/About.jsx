@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
-import { ArrowRightDown } from "../../assets/icons/Icons"
+import { ArrowRightDown, Loop } from "../../assets/icons/Icons"
 import image from '../../assets/images/people_vehicles.png';
+import { Booking } from "../../assets/icons/Icons";
 import './About.css';
 function About() {
   return (
@@ -21,7 +22,7 @@ function About() {
             <div className="icon-cards">
                 <div className="card">
                     <div className="card-icon">
-                        <ArrowRightDown/>
+                        <Booking/>
                     </div>
                     <div className="card-details">
                         <h3>Easy Booking process</h3>
@@ -31,11 +32,11 @@ function About() {
 
                 <div className="card">
                     <div className="card-icon">
-                        <ArrowRightDown/>
+                        <Loop/>
                     </div>
                     <div className="card-details">
-                        <h3>Easy Booking process</h3>
-                        <p>We have optimized the booking process so that our clients can expirience the easisest and safest service.</p>
+                        <h3>Convinient Pick-Up & Return Process</h3>
+                        <p>We have optimized the booking process so that our clients can expirience the safest service.</p>
                     </div>
                 </div>
             </div>

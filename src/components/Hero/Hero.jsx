@@ -18,8 +18,8 @@ function Hero() {
         <p>Mistway is aeasy and covinient</p>
 
         <div className="hero-buttons">
-          <Link>
-            <button className="main-btn">Book a rental</button>
+          <Link to="https://wa.me/+254721731678">
+            <button className="main-btn">WhatsApp</button>
           </Link>
           <Link>
             <button className='sec-button'>Learn more</button>
