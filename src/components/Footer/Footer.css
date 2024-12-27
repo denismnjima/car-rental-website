@@ -16,9 +16,26 @@
     width: 100%;
     margin-bottom: 20px;
   }
-  
+  .footer-left img{
+    width: 200px;
+  }
+  .footer-left h2{
+    text-align: left;
+  }
+  .footer-left p{
+    text-align: left;
+  }
+  .footer-left a{
+    color: wheat;
+    text-decoration: none;
+    margin-top: 5px;
+  }
   .footer-left, .footer-center, .footer-right {
-    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    gap: 5px;
     margin: 0 20px;
   }
   

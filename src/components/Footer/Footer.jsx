@@ -2,16 +2,26 @@
 import React from "react";
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import "./Footer.css";
+import { Link } from "react-router-dom";
+import Logo from '../../assets/images/logo.png'
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-left">
-          <h2>Mistay Limited</h2>
-          <p>Your trusted patner for transportaation and supply services in Kenya.</p>
-          <p>Email: amey@mitsway.afica</p>
-          <p>Phone: +254721731678</p>
+          <Link>
+          <img src={Logo}/>
+          </Link>
+          <h2>Mistway Limited</h2>
+          <h4 className="title">Location:</h4>
+          <p>St Ellis House, Room 409,Wabera street, Nairobi Kenya</p>
+
+          <h4 className="title">Support email:</h4>
+          <a href="mailto:amey@mitsway.afica">amey@mitsway.afica</a>
+
+          <h4 className="title">Call us</h4>
+          <a href="tel:+254721731678">+254721731678</a>
         </div>
 
         <div className="footer-center">
@@ -34,7 +44,7 @@ const Footer = () => {
       </div>
 
       <div className="footer-bottom">
-        <p>&copy; 2024 Your Company. All rights reserved.</p>
+        <p>&copy; 2025  Mistway Limited. All rights reserved.</p>
       </div>
     </footer>
   );
