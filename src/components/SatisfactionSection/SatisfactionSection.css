@@ -1,6 +1,6 @@
 .satisfaction-container{
     margin-top: 25px;
-    background-image: url(../../assets/images/image_purple.png);
+    background-image: url(../../assets/images/image_purple_5_11zon.png);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -22,7 +22,6 @@
     color: white;
     font-size: 35px;
     text-align: left;
-
 }
 .in-container h2 span{
     color: pink;

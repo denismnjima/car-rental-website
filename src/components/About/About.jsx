@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { ArrowRightDown, Loop } from "../../assets/icons/Icons"
-import image from '../../assets/images/people_vehicles.png';
+import image from '../../assets/images/people_vehicles_7_11zon.png';
 import { Booking } from "../../assets/icons/Icons";
 import './About.css';
 function About() {

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import LogoImg from '../../assets/images/logo.png'
+import LogoImg from '../../assets/images/logo_6_11zon.png'
 import { ArrowRightUp } from "../../assets/icons/Icons"
 import './Header.css'
 import MobileHeader from "../Mobileheader/MobileHeader"
