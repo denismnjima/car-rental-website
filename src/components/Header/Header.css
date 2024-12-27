@@ -49,13 +49,16 @@ header{
     }
     .ham-container.opened :nth-child(1){
         rotate: 120deg;
+        transition: 1s;
     }
     .ham-container.opened :nth-child(2){
         rotate: -120deg;
-        translate: -10deg;
+        translate: -50deg;
+        transition: 1s;
     }
     .ham-container.opened :nth-child(3){
         display: none;
+        transition: 1s;
     }
 
     /* hide desktop menu */
@@ -72,8 +75,8 @@ header{
     /* mobile menu */
     .mobile-header-container{
         position: absolute;
-        top: 70px;
-        min-height: 80vh;
+        top: 60px;
+        /* min-height: 80vh; */
         width: 97%;
     }
     

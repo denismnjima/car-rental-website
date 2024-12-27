@@ -7,13 +7,13 @@ function MobileHeader() {
     <nav>
         <ul>
             <li>
-                <Link to="" >Home</Link>
+                <Link to="/" >Home</Link>
             </li>
             <li>
                 <Link to="" >About us</Link>
             </li>
-            <li onTouchMove={()=>console.log('HEY')}>
-                <Link to="" >Contact us</Link>
+            <li>
+                <Link to="/contact" >Contact us</Link>
             </li>
         </ul>
     </nav>

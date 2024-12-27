@@ -19,18 +19,6 @@ function Home() {
      <SatisfactionSection/>
      <About/>
 
-     {/* services */}
-     <div className="services-ctainery">
-      <h2>Explore our wide range of rental services.</h2>
-      <div className="services">
-        <ServicesCard/>
-        <ServicesCard/>
-        <ServicesCard/>
-        <ServicesCard/>
-      </div>
-
-      <p>Discover our range of cars rental services to meet all your travel needs.</p>
-     </div>
      <Footer/>
     </>
   )
