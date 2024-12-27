@@ -1,0 +1,18 @@
+.carCollection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 1500px;
+}
+.sectionHeader{
+    text-align: center;
+}
+.sectionHeader h3{
+    color: grey;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 15px;
+}
