@@ -11,7 +11,7 @@ export default function CarCollectionContainer() {
         <div className="cars-collection-list">
           {
             carData.map((item,index)=>{
-              return <CarCollection key={index} image={item.image}/>
+              return <CarCollection key={index} {...item}/>
 
             })
           }

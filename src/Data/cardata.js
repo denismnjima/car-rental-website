@@ -8,8 +8,8 @@ export const  carData = [
     },
     {
         image: 'https://iili.io/2eNy7I4.png',
-        name:'Fordranger',
-        type:'pickup truck',
+        name:'Nissan X-Trail',
+        type:'SUV',
         day_price: 5000,
         seaters: 2
     },
