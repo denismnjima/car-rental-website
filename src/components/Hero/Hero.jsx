@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { ArrowRightUp } from '../../assets/icons/Icons'
+import { ArrowRightUp,ChevronRight} from '../../assets/icons/Icons'
 import './Hero.css'
 import { useState } from 'react'
 
@@ -19,13 +19,16 @@ function Hero() {
 
         <div className="hero-buttons">
           <Link to="https://wa.me/+254721731678">
-            <button className="main-btn">Get Started</button>
+            <button className="main-btn">
+              <p>Get Started</p>
+              <span><ChevronRight/></span>  
+            </button>
           </Link>
           <Link to="/contact">
-            <button className='sec-button'>Contact us</button>
-          </Link>
-          <Link>
-            <ArrowRightUp/>
+            <button className='sec-button'>
+            <p>Contact Us</p>
+            <span><ChevronRight/></span>  
+            </button>
           </Link>
         </div>
 
