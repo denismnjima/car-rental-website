@@ -1,4 +1,5 @@
 import CarCollection from '../CarCollection/CarCollection'
+import { carData } from '../../Data/cardata'
 import './CarCollectionContainer.css'
 export default function CarCollectionContainer() {
   return (
@@ -8,9 +9,12 @@ export default function CarCollectionContainer() {
             <h2>Explore our collection cars.</h2>
         </div>
         <div className="cars-collection-list">
-          <CarCollection/>
-          <CarCollection/>
-          <CarCollection/>
+          {
+            carData.map((item,index)=>{
+              return <CarCollection key={index} {...item}/>
+
+            })
+          }
         </div>
     </div>
   )

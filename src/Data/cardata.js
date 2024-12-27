@@ -1,4 +1,4 @@
-export default  carData = [
+export const  carData = [
     {
         image: 'fordRanger.png',
         name:'Fordranger',
