@@ -1,4 +1,5 @@
 import About from "../../components/About/About"
+import CarCollectionContainer from "../../components/CarCollectionContainer/CarCollectionContainer"
 import Footer from "../../components/Footer/Footer"
 import Header from "../../components/Header/Header"
 import Hero from "../../components/Hero/Hero"
@@ -10,6 +11,8 @@ function Home() {
     <>
      <Header/>
      <Hero/>
+     {/* car collection */}
+     <CarCollectionContainer/>
      <About/>
 
      {/* services */}
