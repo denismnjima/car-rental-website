@@ -4,9 +4,9 @@ import { PiSeat } from 'react-icons/pi'
 import fordRanger from '../../assets/images/fordRanger.png'
 
 function CarCollection({image,name,type,seaters}) {
-  const whatAppText = `*hello I am enquiring about* %0A
-                        car: ${name} %0A
-                        type: ${type} %0A
+  const whatAppText = `*hello I am enquiring about* 
+                        car: ${name} %
+                        type: ${type} %
                         _comming from the website_`;
   return (
     <div className='carCollectionInd'>
