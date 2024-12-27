@@ -20,14 +20,14 @@ function Hero() {
         <div className="hero-buttons">
           <Link to="https://wa.me/+254721731678">
             <button className="main-btn">
-              <p>Get Started</p>
-              <span><ChevronRight/></span>  
+                <p>Get Started</p>
+                <span><ChevronRight/></span>  
             </button>
           </Link>
           <Link to="/contact">
             <button className='sec-button'>
-            <p>Contact Us</p>
-            <span><ChevronRight/></span>  
+              <p>Contact Us</p>
+              <span><ChevronRight/></span>  
             </button>
           </Link>
         </div>
