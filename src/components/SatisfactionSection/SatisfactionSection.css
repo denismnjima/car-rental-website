@@ -1,0 +1,54 @@
+.satisfaction-container{
+    margin-top: 25px;
+    background-image: url(../../assets/images/image_purple.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+}
+.satisfaction-container img{
+    width: 480px;
+}
+.in-container{
+    padding: 35px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    max-width: 1500px;
+
+}
+.in-container h2{
+    color: white;
+    font-size: 35px;
+    text-align: left;
+
+}
+.in-container h2 span{
+    color: pink;
+    border-bottom: 5px solid purple;
+}
+.in-container p{
+    color: white;
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: left;
+
+}
+
+@media screen and (max-width:768px) {
+    .in-container{
+        flex-direction: column;
+    }
+    .in-container img{
+        max-width: 90%;
+    }
+    .in-container h2{
+        font-size: 45px;
+    }
+    .in-container p{
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    
+}
