@@ -3,6 +3,7 @@ import CarCollectionContainer from "../../components/CarCollectionContainer/CarC
 import Footer from "../../components/Footer/Footer"
 import Header from "../../components/Header/Header"
 import Hero from "../../components/Hero/Hero"
+import SatisfactionSection from "../../components/SatisfactionSection/SatisfactionSection"
 import ServicesCard from "../../components/ServicesCard/ServicesCard"
 import './Home.css'
 
@@ -13,6 +14,9 @@ function Home() {
      <Hero/>
      {/* car collection */}
      <CarCollectionContainer/>
+
+     {/* satisfaction component */}
+     <SatisfactionSection/>
      <About/>
 
      {/* services */}
