@@ -7,7 +7,11 @@ export default function CarCollectionContainer() {
             <h3>Collection</h3>
             <h2>Explore our collection cars.</h2>
         </div>
-        <CarCollection/>
+        <div className="cars-collection-list">
+          <CarCollection/>
+          <CarCollection/>
+          <CarCollection/>
+        </div>
     </div>
   )
 }

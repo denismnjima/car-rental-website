@@ -1,0 +1,64 @@
+.carCollectionInd{
+    width: 30%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.carCollectionInd img{
+    height: 100%;
+    width: 100%;
+}
+.carCollectionInd .details{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(225,0,249);
+    background: linear-gradient(0deg, rgba(225,0,249,1) 0%, rgba(235,0,255,0.5130427170868348) 50%, rgba(252,176,69,0) 100%);
+    min-height: 200px;
+    padding: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+.carCollectionInd .details span{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 5px 15px;
+    display: none;
+}
+.carCollectionInd .details a{
+    width: 100%;
+    background-color: white;
+    padding: 7px 14px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: purple;
+    margin: 5px 0;
+    display: none;
+}
+.carCollectionInd:hover a{
+    display: block;
+    transition: .5s;
+}
+.carCollectionInd:hover{
+    scale: 1.02;
+}
+@media screen and (max-width:1200px){
+    .carCollectionInd{
+        width: 47%;
+    }
+    
+}
+@media screen and (max-width:768px){
+    .carCollectionInd{
+        width: 90%;
+    }
+    
+}
