@@ -8,8 +8,8 @@ export const  carData = [
     },
     {
         image: 'https://iili.io/2e8TjMQ.jpg',
-        name:'Filder',
-        type:'SUV',
+        name:'allon',
+        type:'car',
         day_price: 5000,
         seaters: 2
     },
